@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background-color: aliceblue;*/
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+h2 {
+    margin: 50px;
+}
+
+form {
+    align-items: center;
+}
+
+.container {
+    /*background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(101, 217, 233);*/
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    display: block;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 400px;
+    border: none;
+}
+
+input[type="number"] {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 20px;
+    font-size: large;
+}
+
+td {
+    cursor: not-allowed;
+}
+
+label,
+p {
+    padding: 20px;
+    color: red;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+input[type=submit],
+input[type=button],
+input[type=reset] {
+    display: inline-block;
+    padding: 10px;
+    margin: 8px;
+    font-weight: bolder;
+    border-radius: 30%;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover,
+input[type=reset]:hover {
+    transform: scale(1.02, 1.05);
+    transition: 1.2s ease-out;
+    border: transparent;
+}
